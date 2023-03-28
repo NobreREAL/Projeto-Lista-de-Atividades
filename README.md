@@ -9,9 +9,7 @@
 <li>SASS</li>
 <li>Javascript</li>
 </ul>
-
-
-<h3> Sobre as Tecnologias usadas: </h3>
+<h2> Sobre as Tecnologias usadas: </h2>
 <p> Decidi usar SASS como framework de auxilo para a estilização do projeto para ter mais controle e organização dos arquivos
 de modo que facilita futuras manutenções no código </p>
 
