@@ -1,5 +1,7 @@
 //Criando o botão para adicionr em cada item da lista.
 
+import { novoItem } from "./functions.js";
+
 let minhaListaNode = document.getElementsByTagName("LI");
 let contador = 0;
 
@@ -20,3 +22,20 @@ for (contador = 0; contador < fechar.length; ++contador) {
         div.style.display = "none";
     }
 }
+
+// Adicionando um símbolo de checado enquanto clica na lista
+
+let lista = document.querySelector('ul');
+lista.addEventListener('click', function(ev){
+    if (ev.target.tagName === 'LI'){
+        ev.target.classList.toggle('checked')
+    }
+}, false);
+
+// Adicionando um novo item quando clicando no botão de Adicionar
+
+let botaoAdd = document.querySelector(".adicionar-atividade");
+
+botaoAdd.addEventListener("click", () => {
+    novoItem(fechar);
+})
