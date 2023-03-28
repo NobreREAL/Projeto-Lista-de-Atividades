@@ -76,7 +76,7 @@ button {
   background-color: #B8DBD9;
   border-radius: 7px;
 }
-.container-principal .atividades ul li button {
+.container-principal .atividades ul li .deletar {
   margin: 0 0.25rem 0 0;
   border: none;
   background-color: #B8DBD9;
