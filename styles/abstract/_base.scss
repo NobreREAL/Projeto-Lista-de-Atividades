@@ -8,3 +8,15 @@
 html {
     font-family: $fonte-principal;
 }
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background: $cor-gradiente;
+}
+
+button{
+    cursor:pointer;
+}

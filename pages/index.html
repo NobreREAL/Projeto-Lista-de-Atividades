@@ -8,44 +8,32 @@
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <header id="cabecario">
-        <h1 class="titulo-projeto">To Do List</h1>
-    </header>
+    <div class="container-principal">
+        <div class="adicionar-atividades">
+            <input type="text" name="adicionar-tarefa" id="input-tarefa" class="adicionar-tarefa">
+            <button class="adicionar-atividade">Add</button>
+        </div>
 
-    <section class="container-principal">
-        <main id="tela-atividades">
-            <div class="tela-adicionar">
-                <input type="text"
-                 name="AtividadeInserir" id="AtividadeInserir" class="atividade-inserir"
-                 placeholder="Adicione uma nova tarefa">
-                 <button class="adicionar-atividade">Adicionar</button>
-            </div>
-
-            <div class="container-atividades">
-                <ul class="lista-atividades">
-                    <li class="atividade">
-                        <p class="texto-atividade">Item 1</p>
-                        <button class="concluir">X</button>
-                    </li>
-                    <li class="atividade">
-                        <p class="texto-atividade">Item 1</p>
-                        <button class="concluir">X</button>
-                    </li>
-                    <li class="atividade">
-                        <p class="texto-atividade">Item 1</p>
-                        <button class="concluir">X</button>
-                    </li>
-                    <li class="atividade">
-                        <p class="texto-atividade">Item 1</p>
-                        <button class="concluir">X</button>
-                    </li>
-                    <li class="atividade">
-                        <p class="texto-atividade">Item 1</p>
-                        <button class="concluir">X</button>
-                    </li>
-                </ul>
-            </div>
-        </main>
-    </section>
+        <div class="atividades">
+            <ul class="escopo-lista">
+                <li class="lista">
+                    <p class="atribuicao">Atividade 01</p>
+                    <button class="deletar">X</button>
+                </li>
+                <li class="lista">
+                    <p class="atribuicao">Atividade 01</p>
+                    <button class="deletar">X</button>
+                </li>
+                <li class="lista">
+                    <p class="atribuicao">Atividade 01</p>
+                    <button class="deletar">X</button>
+                </li>
+                <li class="lista">
+                    <p class="atribuicao">Atividade 01</p>
+                    <button class="deletar">X</button>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

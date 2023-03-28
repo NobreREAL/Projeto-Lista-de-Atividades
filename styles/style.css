@@ -7,95 +7,79 @@ html {
   font-family: "Arial";
 }
 
-#cabecario {
-  padding: 1rem;
-  background-color: rgb(255, 255, 255);
+body {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+button {
+  cursor: pointer;
 }
 
 .container-principal {
-  height: 100vh;
-  background-color: rgb(204, 213, 224);
-}
-.container-principal #tela-atividades {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
   display: flex;
   flex-flow: column nowrap;
-  gap: 1rem;
-  width: 50%;
-  height: 100%;
-  padding: 0 1rem 0 1rem;
-  margin: auto;
-  background-color: rgb(110, 110, 110);
 }
-.container-principal #tela-atividades .tela-adicionar {
+.container-principal .adicionar-atividades {
   display: flex;
-  width: 100%;
-  flex-flow: row nowrap;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
+  width: 100%;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 1.5rem;
 }
-.container-principal #tela-atividades .tela-adicionar .atividade-inserir {
-  width: 87%;
-  height: 50px;
+.container-principal .adicionar-atividades .adicionar-tarefa {
+  width: 215px;
+  height: 35px;
+  border: 2px solid #2e88ee;
+  border-radius: 5px;
   text-indent: 1rem;
 }
-.container-principal #tela-atividades .tela-adicionar .adicionar-atividade {
-  width: 15%;
-  height: 50px;
-}
-.container-principal #tela-atividades .tela-adicionar .adicionar-atividade:hover {
-  background-color: lightgray;
-  cursor: pointer;
-}
-.container-principal #tela-atividades .tela-adicionar .adicionar-atividade:active {
-  background-color: black;
+.container-principal .adicionar-atividades .adicionar-atividade {
+  width: 75px;
+  height: 38px;
+  border: none;
+  background-color: #3e8ce6;
+  border-radius: 2.5px;
   color: white;
+  font-weight: 600;
 }
-.container-principal #tela-atividades .tela-adicionar .adicionar-atividade, .container-principal #tela-atividades .tela-adicionar .atividade-inserir {
-  margin: 0.5rem 0 0 0;
-  border-radius: 5px;
-  border: 2px solid rgb(0, 0, 0);
-  background-color: white;
+.container-principal .atividades {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.container-atividades {
-  margin: auto;
-  width: 95%;
-  height: 80vh;
-  background-color: white;
-  border-radius: 5px;
-  border: 2px solid black;
-  padding: 1rem;
-}
-.container-atividades ul {
+.container-principal .atividades ul {
   display: flex;
   flex-flow: column nowrap;
-  gap: 1rem 0;
+  gap: 1rem;
 }
-.container-atividades ul li {
-  width: 100%;
-  height: 50px;
+.container-principal .atividades ul li {
   display: flex;
   flex-flow: row nowrap;
+  width: 309px;
+  height: 40px;
+  border: 1px solid #1C5D99;
   align-items: center;
   justify-content: space-between;
-  list-style-type: none;
-  border: 2px solid black;
+  text-indent: 0.5rem;
+  background-color: #B8DBD9;
+  border-radius: 7px;
 }
-.container-atividades ul li .texto-atividade {
-  text-indent: 1rem;
-}
-.container-atividades ul li .concluir {
-  margin: 5px;
-  width: 25px;
-  height: 25px;
+.container-principal .atividades ul li button {
+  margin: 0 0.25rem 0 0;
   border: none;
-  background-color: white;
+  background-color: #B8DBD9;
   font-weight: 600;
-  color: red;
-}
-.container-atividades ul li .concluir:hover {
-  cursor: pointer;
+  color: #136F63;
 }/*# sourceMappingURL=style.css.map */
