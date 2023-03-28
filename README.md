@@ -17,7 +17,8 @@ de modo que facilita futuras manutenções no código </p>
 
 > Atualmente, o Projeto se encontra dessa forma:
 
-![imagem_2023-03-28_144523177](https://user-images.githubusercontent.com/79422432/228323430-85266546-8256-440e-80ad-1d4aeb263a6f.png)
+![imagem_2023-03-28_170606107](https://user-images.githubusercontent.com/79422432/228353860-8f29490b-3c7c-4982-b2de-e3acd636bfd4.png)
 
-<p> Tal arquivo se encontra sem sua funcionalidade principal, pois ainda será adicionado Javascript e o design também será melhorado. </p>
+<p> Tal arquivo se encontra sem sua funcionalidade principal, pois ainda será adicionado Javascript</p>
+
 
