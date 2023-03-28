@@ -1,6 +1,7 @@
+
 <h1> Projeto Todo List </h1>
 
-> Status do projeto: em desenvolvimento
+> Status do projeto: Em desenvolvimento (emplementando funcionalidade de adicionar item a lista).
 
 <h2> Tecnologias usadas: </h2>
 <ul> 
@@ -13,10 +14,14 @@
 <p> Decidi usar SASS como framework de auxilo para a estilização do projeto para ter mais controle e organização dos arquivos
 de modo que facilita futuras manutenções no código </p>
 
+<p> Precisei estudar sobre algumas propriedades de Javascript como: createTextNode, appendChild, parent.Element e createElement() </p>
+
 > Atualmente, o Projeto se encontra dessa forma:
 
-![imagem_2023-03-28_170606107](https://user-images.githubusercontent.com/79422432/228353860-8f29490b-3c7c-4982-b2de-e3acd636bfd4.png)
+https://user-images.githubusercontent.com/79422432/228382922-d833ef5c-17a5-46cc-ac42-77330f2fb024.mp4
 
-<p> Tal arquivo se encontra sem sua funcionalidade principal, pois ainda será adicionado Javascript</p>
+<p> Atualmente consegue-se remover itens da lista, ainda não tem como adicionar novos itens.</p>
+
+
 
 
