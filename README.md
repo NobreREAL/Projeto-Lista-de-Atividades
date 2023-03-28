@@ -1,7 +1,6 @@
-
 <h1> Projeto Todo List </h1>
 
-> Status do projeto: Em desenvolvimento (emplementando funcionalidade de adicionar item a lista).
+> Status do projeto: Em teste
 
 <h2> Tecnologias usadas: </h2>
 <ul> 
@@ -18,9 +17,9 @@ de modo que facilita futuras manutenções no código </p>
 
 > Atualmente, o Projeto se encontra dessa forma:
 
-https://user-images.githubusercontent.com/79422432/228382922-d833ef5c-17a5-46cc-ac42-77330f2fb024.mp4
+https://user-images.githubusercontent.com/79422432/228387191-d326b7f0-c1c8-4514-b0bc-a0aa340a4228.mp4
 
-<p> Atualmente consegue-se remover itens da lista, ainda não tem como adicionar novos itens.</p>
+<p> Maioria das funcionalidades adicionadas, em fase de teste para corrigir possíveis problemas.</p>
 
 
 
