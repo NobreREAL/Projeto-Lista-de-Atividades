@@ -1,0 +1,9 @@
+@import '../abstract/variables';
+
+#cabecario{
+    padding:1rem;
+    background-color: $cor-principal;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

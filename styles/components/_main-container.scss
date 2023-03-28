@@ -1,0 +1,53 @@
+@import '../abstract/variables';
+
+
+.container-principal{
+    height:100vh;
+    background-color: $cor-secundaria;
+
+    #tela-atividades{
+        display:flex;
+        flex-flow:column nowrap;
+        gap:1rem;
+        width:50%;
+        height:100%;
+        padding:0 1rem 0 1rem;
+        margin:auto;
+        background-color: rgb(110, 110, 110);
+        .tela-adicionar{
+            display:flex;
+            width:100%;
+            flex-flow: row nowrap;
+            align-items: center;
+            gap:1rem;
+
+            .atividade-inserir{
+                width:87%;
+                height:50px;
+                text-indent: 1rem;
+            }
+
+            .adicionar-atividade{
+                width: 15%;
+                height:50px;
+
+                &:hover{
+                    background-color:lightgray;
+                    cursor:pointer;
+                }
+
+                &:active{
+                    background-color: black;
+                    color:white;
+                }
+            }
+
+            .adicionar-atividade, .atividade-inserir{
+                margin:.5rem 0 0 0;
+                border-radius:5px;
+                border:2px solid rgb(0, 0, 0);
+                background-color: white;
+            }
+        }
+    }
+}

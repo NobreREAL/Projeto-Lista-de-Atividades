@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Arial";
+}
+
+#cabecario {
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-principal {
+  height: 100vh;
+  background-color: rgb(204, 213, 224);
+}
+.container-principal #tela-atividades {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  width: 50%;
+  height: 100%;
+  padding: 0 1rem 0 1rem;
+  margin: auto;
+  background-color: rgb(110, 110, 110);
+}
+.container-principal #tela-atividades .tela-adicionar {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 1rem;
+}
+.container-principal #tela-atividades .tela-adicionar .atividade-inserir {
+  width: 87%;
+  height: 50px;
+  text-indent: 1rem;
+}
+.container-principal #tela-atividades .tela-adicionar .adicionar-atividade {
+  width: 15%;
+  height: 50px;
+}
+.container-principal #tela-atividades .tela-adicionar .adicionar-atividade:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.container-principal #tela-atividades .tela-adicionar .adicionar-atividade:active {
+  background-color: black;
+  color: white;
+}
+.container-principal #tela-atividades .tela-adicionar .adicionar-atividade, .container-principal #tela-atividades .tela-adicionar .atividade-inserir {
+  margin: 0.5rem 0 0 0;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: white;
+}
+
+.container-atividades {
+  margin: auto;
+  width: 95%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 1rem;
+}
+.container-atividades ul {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 0;
+}
+.container-atividades ul li {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 2px solid black;
+}
+.container-atividades ul li .texto-atividade {
+  text-indent: 1rem;
+}
+.container-atividades ul li .concluir {
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: white;
+  font-weight: 600;
+  color: red;
+}
+.container-atividades ul li .concluir:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
