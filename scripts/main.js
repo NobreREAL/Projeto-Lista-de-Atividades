@@ -1,8 +1,9 @@
-//Criando o botão para adicionr em cada item da lista.
+//Criando o botão para adicionar em cada item da lista.
 
 import { novoItem } from "./functions.js";
 
 let minhaListaNode = document.getElementsByTagName("LI");
+
 let contador = 0;
 
 for (contador = 0; contador < minhaListaNode.length; contador++) {
@@ -19,7 +20,7 @@ let fechar = document.getElementsByClassName("deletar");
 for (contador = 0; contador < fechar.length; ++contador) {
     fechar[contador].onclick = function() {
         let div = this.parentElement;
-        div.style.display = "none";
+        div.remove();
     }
 }
 
@@ -36,6 +37,11 @@ lista.addEventListener('click', function(ev){
 
 let botaoAdd = document.querySelector(".adicionar-atividade");
 
+
 botaoAdd.addEventListener("click", () => {
-    novoItem(fechar);
+    novoItem(fechar, minhaListaNode.length);
 })
+
+// Salvamento dinâmico da informação na página.
+
+
