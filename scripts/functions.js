@@ -1,4 +1,4 @@
-export function novoItem(fechar, tamanhoLista)
+export function novoItem(fechar, tamanhoLista, arrayAtividades)
 {
     if (tamanhoLista > 100)
     {
@@ -8,6 +8,14 @@ export function novoItem(fechar, tamanhoLista)
         let li = document.createElement('li');
         let inputValor = document.getElementById("input-tarefa").value;
         let t = document.createTextNode(inputValor);
+
+        const atividadeLista = {
+            "tarefa": inputValor
+        }
+
+        arrayAtividades.push(atividadeLista);
+
+        localStorage.setItem("item", JSON.stringify(arrayAtividades));
 
         li.appendChild(t);
         if (inputValor === '') {

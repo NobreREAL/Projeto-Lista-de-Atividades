@@ -3,6 +3,13 @@
 import { novoItem } from "./functions.js";
 
 let minhaListaNode = document.getElementsByTagName("LI");
+const inputOpt = document.getElementById("input-tarefa");
+const arrayAtividades = JSON.parse(localStorage.getItem("item")) || new Array();
+
+arrayAtividades.forEach((elementos) => {
+    console.log(elementos.tarefa);
+}
+)
 
 let contador = 0;
 
@@ -39,7 +46,8 @@ let botaoAdd = document.querySelector(".adicionar-atividade");
 
 
 botaoAdd.addEventListener("click", () => {
-    novoItem(fechar, minhaListaNode.length);
+    novoItem(fechar, minhaListaNode.length, arrayAtividades);
+    inputOpt.value = "";
 })
 
 // Salvamento dinâmico da informação na página.
